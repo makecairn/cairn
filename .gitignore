@@ -1,0 +1,11 @@
+# Ignore Rust build artifacts
+/target/
+
+# Ignore local IDE configuration
+/.idea/
+/.vscode/
+
+# Ignore environment variables
+.env
+.env.*
+!.env.example
